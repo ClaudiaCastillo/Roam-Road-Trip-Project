@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/coverStyle.css">
+
+    <title>Roam - Plan your next Road Trip!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-lgreen sticky-top">
+        <a class="navbar-brand navbar-brand-custom f-s-25" href="#">
+            <i class="fa fa-compass blue-black" aria-hidden="true"></i>
+            ROAM
+      </a>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row main-height">
+            <div class="col-md-12" style="padding-left: 0; padding-right: 0;">
+                <video autoplay loop id="video-background" muted plays-inline>
+                    <source src="css/Jungle_Road/Jungle_Road.mp4" type="video/mp4">
+                </video>
+               
+                        <div id="overlay" class="bg">
+                         <div class="col-md-6 mx-auto">
+                    <div class="row">
+                            <div class="welcome-sec row" style="margin-left: 15px;margin-right: 15px;">
+                                <div class="col-md-12 welcome text-left" style="padding:2%;"> 
+                                    <div class="p-l-15">
+                                        <p class="bold f-s-20" id="verifyMessage" style="line-height: 1;padding-top: 20px;">Welcome to<br>
+                                        <span class="bold welcome-brand-name" style="font-size: 60px;">Roam</span>
+                                        </p>
+                                    </div>                          
+                                </div>
+
+                                <div class="col-md-12" id="login_div" style="padding:0% 10% 5% 10%;display: none;">
+                                    <div class="text-center p-b-15" >
+                                      <div class="form-group text-left m-b-0">
+                                        <p style="line-height: 1.15;" class="p-t-40 f-s-20 m-b-0">Please sign in to get started on your road trip.</p>
+                                        <label class="f-s-25" for="inputEmail">Email address</label>
+                                        <input type="email" class="form-control form-control-lg input-custom" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" style="">
+                                      </div>
+                                      <div class="form-group text-left">
+                                        <label class="f-s-25" for="inputPassword">Password</label>
+                                        <input type="password" class="form-control form-control-lg input-custom" id="inputPassword" placeholder="Password" style="">
+                                      </div>
+                                      <button class="login-btn f-s-20" style="" id="createAccount">Create Account</button>
+                                      <button class="login-btn f-s-20" style="" id="login">Log in</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-12" id="user_div" style="padding:0% 5% 5% 2%;display: none;">
+                                     <div class="p-l-15">
+                                        <p class="bold f-s-20 text-left" style="line-height: 1;padding-top: 20px;">
+                                        Hello!
+                                        </p>
+                                        <p id="user_para" class="text-left" style="line-height: 1.15;font-size:16px;">We are sad to see you go! Come back when your ready to plan another trip.</p>
+                                        <div class="text-left">
+                                            <button class="login-btn f-s-20" id="beginTripBtn" style=""><a class="f-c-w" href="budget.html" >Get Started</a></button>
+                                            <button class="login-btn f-s-20" style="" id="signOut">Sign out</button>
+                                            <button class="login-btn f-s-20" id="sendVerfication">Send Verfication</button>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                              </div>
+                </div>
+
+                        </div>
+
+                  
+
+            </div>
+
+
+        </div>
+    </div>
+
+            <footer class="blue-black-bg fixed-bottom">
+        <nav class="navbar navbar-light justify-content-center">
+          <ul class="nav justify-content-end p-t-10">
+            <li class="nav-item navbar-brand-custom f-c-w f-s-14">
+              &copy; ROAM 2018
+            </li>
+          </ul>
+        </nav>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/7600238cd3.js "></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+
+
+    <script src="js/firebase-login.js"></script>
+
+
+    
+
+  </body>
+
+</html>

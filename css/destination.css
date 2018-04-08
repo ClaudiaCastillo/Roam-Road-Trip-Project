@@ -1,0 +1,12 @@
+/*.input-custom{
+    border-radius: 0px;
+    padding:10px;
+}
+*/
+#map{
+
+    height: 100%;    
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+}
