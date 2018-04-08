@@ -1,6 +1,6 @@
 # RoadTrip Project
 
-https://claudiacastillo.github.io/roadTrip/
+https://claudiacastillo.github.io/Roam-Road-Trip-Project/
 
 Roam - Your Premiere Road Trip Itinerary.
 
